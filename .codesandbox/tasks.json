@@ -1,0 +1,43 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "command": "pnpm install",
+      "name": "pnpm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "dev": {
+      "name": "dev",
+      "command": "yarn dev",
+      "runAtStart": true
+    },
+    "build": {
+      "name": "build",
+      "command": "yarn build",
+      "runAtStart": false
+    },
+    "start": {
+      "name": "start",
+      "command": "yarn start",
+      "runAtStart": false
+    },
+    "stat": {
+      "name": "stat",
+      "command": "yarn stat",
+      "runAtStart": false
+    },
+    "emp": {
+      "name": "emp",
+      "command": "yarn emp",
+      "runAtStart": false
+    },
+    "p": {
+      "name": "p",
+      "command": "pnpm run dev",
+      "runAtStart": true
+    }
+  }
+}
