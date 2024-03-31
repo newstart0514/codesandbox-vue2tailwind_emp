@@ -2,8 +2,8 @@
   // These tasks will run in order when initializing your CodeSandbox project.
   "setupTasks": [
     {
-      "command": "pnpm install",
-      "name": "pnpm install"
+      "name": "pnpm install",
+      "command": "pnpm install"
     }
   ],
 
@@ -16,28 +16,27 @@
     },
     "build": {
       "name": "build",
-      "command": "yarn build",
-      "runAtStart": false
+      "command": "yarn build"
     },
     "start": {
       "name": "start",
-      "command": "yarn start",
-      "runAtStart": false
+      "command": "yarn start"
     },
     "stat": {
       "name": "stat",
-      "command": "yarn stat",
-      "runAtStart": false
+      "command": "yarn stat"
     },
     "emp": {
       "name": "emp",
-      "command": "yarn emp",
-      "runAtStart": false
+      "command": "yarn emp"
     },
     "p": {
       "name": "p",
       "command": "pnpm run dev",
-      "runAtStart": true
+      "runAtStart": true,
+      "preview": {
+        "port": 9002
+      }
     }
   }
 }
